@@ -28,13 +28,13 @@ class WaterMonitor_loader
     function plugin_header_text()
     {
         echo '<header style="text-align: center; padding: 25px; background: linear-gradient(135deg, #1a1a1a, #303030); color: white;">
-            <p style="margin: 0; font-size: 1rem; font-weight: 400">Toto je <span style="font-weight: 600; font-size: 3rem">Mapa Lokací</span></p>
+            <p style="margin: 0; font-size: 1.3rem; font-weight: 400">Toto je <br><span style="font-weight: 600; font-size: 3rem">Mapa míst</span><br>ve Zlínském kraji.</p>
         </header>';
     }
 
     function plugin_map()
     {
-        $img_url = WM_PLUGIN_URL . '/public/imgs/plugin_map.png';
+        $img_url = WM_PLUGIN_URL . '/public/imgs/plugin_map.jpg';
         ob_start();
         ?>
 
@@ -44,12 +44,14 @@ class WaterMonitor_loader
         </div>
 
         <map name="image-map">
-            <area target="" alt="Luhačovická Přehrada" title="Luhačovická Přehrada" href="#" coords="491,474,14"
-                  shape="circle"/>
-            <area target="" alt="Hulínské Štěrkoviště" title="Hulínské Štěrkoviště" href="#" coords="259,294,15"
-                  shape="circle"/>
-            <area target="" alt="Štěrkoviště Otrokovice" title="Štěrkoviště Otrokovice" href="#" coords="291,374,15"
-                  shape="circle"/>
+            <area target="" alt="" title="" href="" coords="628,82,675,144" shape="rect">
+            <area target="" alt="" title="" href="" coords="486,250,530,315" shape="rect">
+            <area target="" alt="" title="" href="" coords="104,447,52,509" shape="rect">
+            <area target="" alt="" title="" href="" coords="187,553,247,617" shape="rect">
+            <area target="" alt="" title="" href="" coords="263,322,312,377" shape="rect">
+            <area target="" alt="" title="" href="" coords="455,422,515,483" shape="rect">
+            <area target="" alt="" title="" href="" coords="441,595,490,661" shape="rect">
+            <area target="" alt="" title="" href="" coords="223,238,277,301" shape="rect">
         </map>
         <?php
         return ob_get_clean();
