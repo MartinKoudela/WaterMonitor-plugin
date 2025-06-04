@@ -6,7 +6,7 @@ class WaterMonitor_loader
 {
     public function run()
     {
-
+    // for later //
     }
 
     public function __construct()
@@ -28,7 +28,7 @@ class WaterMonitor_loader
     function plugin_header_text()
     {
         echo '<header style="text-align: center; padding: 25px; background: linear-gradient(135deg, #1a1a1a, #303030); color: white;">
-            <p style="margin: 0; font-size: 1.3rem; font-weight: 400">Toto je <br><span style="font-weight: 600; font-size: 3rem">Mapa míst</span><br>ve Zlínském kraji.</p>
+            <p style="margin: 0; font-size: 1.3rem; font-weight: 400"><span style="font-weight: 600; font-size: 3rem">Mapa míst</span><br>ve Zlínském kraji.</p>
         </header>';
     }
 
