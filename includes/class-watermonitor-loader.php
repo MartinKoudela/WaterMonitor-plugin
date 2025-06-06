@@ -44,7 +44,7 @@ class WaterMonitor_loader
         </div>
 
         <map name="image-map">
-            <area target="" alt="" title="" href="" coords="628,82,675,144" shape="rect">
+            <area target="" alt="" title="" href="" coords="628,82,675,144" shape="rect" >
             <area target="" alt="" title="" href="" coords="486,250,530,315" shape="rect">
             <area target="" alt="" title="" href="" coords="104,447,52,509" shape="rect">
             <area target="" alt="" title="" href="" coords="187,553,247,617" shape="rect">

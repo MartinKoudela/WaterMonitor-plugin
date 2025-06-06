@@ -18,7 +18,7 @@ class WaterMonitor_Admin
         add_menu_page(
             'Water Clarity Monitor - Administrace',
             'WCM - Admin',
-            'manage_options',
+            '',
             'watermonitor',
             array($this, 'html_admin_page'),
             'dashicons-admin-site-alt3',

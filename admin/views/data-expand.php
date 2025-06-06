@@ -32,7 +32,7 @@ $result_data = mysqli_query($conn, $db_data);
             if ($result_data) {
                 $first_row = mysqli_fetch_assoc($result_data);
                 if ($first_row) {
-                    echo "<table border='3' cellpadding='6' cellspacing='2' style='width: 60%;'>";
+                    echo "<table border='1' cellpadding='8' cellspacing='2' style='width: 60%;'>";
                     echo "<tr>";
                     foreach ($first_row as $column => $value) {
                         echo "<th>" . htmlspecialchars($column) . "</th>";
